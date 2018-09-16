@@ -22,7 +22,7 @@ $('#bedroomCarousel').carousel({
     interval: 10000
 });
 
-$('#bathroomCarousel').carousel({
+$('#bathCarousel').carousel({
     interval: 10000
 });
 
