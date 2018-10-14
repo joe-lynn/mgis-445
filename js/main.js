@@ -42,3 +42,19 @@ $('.carousel .carousel-item').each(function(){
         next.children(':first-child').clone().appendTo($(this));
     }
 });
+
+$("img").click(function(){
+    window.location.replace("pages/product.html");
+});
+
+
+
+
+
+
+
+$("#submit").click(function(e) {
+    e.preventDefault();
+    $('#form-response').removeClass('d-none');
+    $('.contact-form').hide();
+    });

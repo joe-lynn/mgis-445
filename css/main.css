@@ -1,6 +1,14 @@
 /* ==========================================================================
    Custom styles
    ========================================================================== */
+
+img { cursor: pointer; }
+
+.img-size {
+    height: 295px;
+    width: 295px;
+}
+
 .carousel-inner .carousel-item.active,
 .carousel-inner .carousel-item-next,
 .carousel-inner .carousel-item-prev {
