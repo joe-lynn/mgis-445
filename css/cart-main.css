@@ -1,55 +1,7 @@
 /* ==========================================================================
    Custom styles
    ========================================================================== */
-img {
-    position:absolute;
-    left:220px;
-    top:220px;
-    background-color: rgba(34,34,34,0.6);
-    /* For IE 5.5 - 7*/
-    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99222222, endColorstr=#99222222);
-    /* For IE 8*/
-    -ms-filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99222222, endColorstr=#99222222);
-    z-index:10;
-    padding:10px;
--moz-box-shadow:0px 0px 7px #000000;
--webkit-box-shadow:0px 0px 7px #000000;
-box-shadow:0px 0px 7px #000000;
--webkit-border-radius: 4px;
--moz-border-radius: 4px;
-border-radius: 4px; 
-}
 
-
-
-img { cursor: pointer; }
-
-.img-size {
-    height: 295px;
-    width: 295px;
-}
-
-.carousel-inner .carousel-item.active,
-.carousel-inner .carousel-item-next,
-.carousel-inner .carousel-item-prev {
-    display: flex;
-}
-
-.carousel-inner .carousel-item-right.active,
-.carousel-inner .carousel-item-next {
-    transform: translateX(25%);
-}
-
-.carousel-inner .carousel-item-left.active,
-.carousel-inner .carousel-item-prev {
-    transform: translateX(-25%);
-}
-
-.carousel-inner .carousel-item-right,
-.carousel-inner .carousel-item-left{
-    transform: translateX(0);
-
-}
 
 
 /* ==========================================================================
