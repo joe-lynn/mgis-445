@@ -1,3 +1,14 @@
+var xhttp = new XMLHttpRequest();
+xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+        // Typical action to be performed when the document is ready:
+         console.log(xhttp.responseText);
+    }
+};
+xhttp.open("GET", "https://0gb8v1l3e7.execute-api.us-east-1.amazonaws.com/catalog/catalog/", true);
+xhttp.send();
+
+
 $('#featuredCarousel').carousel({
     interval: 10000
 });
